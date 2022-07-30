@@ -1,0 +1,88 @@
+.stadionOk {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background: url(les.jpg) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* .fon {
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    background: url(peyz.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+} */
+
+.snakeA {
+    width: 50px;
+    /* height: 200px; */
+    background-image: url(tries.jpg);
+    position: absolute;
+    z-index: 2;
+}
+
+.snakeB {
+    width: 50px;
+    /* height: 200px; */
+    background-image: url(tries.jpg);
+    position: absolute;
+    z-index: 2;
+}
+
+.snakeC {
+    width: 50px;
+    /* height: 200px; */
+    background-image: url(tries.jpg);
+    position: absolute;
+    z-index: 2;
+}
+
+.snakeD {
+    width: 50px;
+    /* height: 200px; */
+    background-image: url(tries.jpg);
+    position: absolute;
+    z-index: 2;
+}
+
+.score {
+    width: auto;
+    display: block;
+    margin: auto;
+    color: gold;
+    font-weight: 900;
+    line-height: 100px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bird {
+    position: absolute;
+    background-image: url(drag.png);
+    z-index: 3;
+}
+
+.restart {
+    width: 100%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 0px;
+    font-weight: 900;
+    font-size: 50px;
+    color: red;
+}
+
+.gameOverBlock {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background: url(les.jpg) no-repeat;
+    background-size: 100% 100%;
+}
