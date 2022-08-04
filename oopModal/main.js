@@ -1,26 +1,3 @@
-// document.querySelector('#myBtn').addEventListener('click',openModal);
-// const myModal = document.querySelector('#myModal');
-// const close = document.querySelector('.close')
-// const modalContent = document.querySelector('.modal_content')
-
-
-// function openModal(){
-//   myModal.style.display ='block'
-//   myModal.addEventListener('click',ModalCloseEvent)
-// }
-
-
-
-
-// function ModalCloseEvent(e){
-//   console.log(e.target)
-// if(!e.target.closest('.modal_content')||e.target==close){
-//   myModal.style.display='none'
-// }
-// }
-
-
-
 class Modal {
     constructor(text = 'error!!!!') {
         this.text = text;
@@ -55,6 +32,7 @@ class Modal {
             this.closeFn();
         }
     }
+
     closeFn() {
         this.datachEvent();
         this.modal.remove();
